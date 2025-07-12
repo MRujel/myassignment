@@ -12,6 +12,9 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+}
 nav{
     display: flex;
     align-items: center;
@@ -43,6 +46,30 @@ nav li a{
     color: white;
     font-size: 20px;
     width: 132px;
+    height: 48px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}
+/* banner style */
+.banner{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Full viewport height */
+    text-align: center;
+}
+.banner-title{
+    color: #252432;
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-button{
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    width: 175px;
     height: 48px;
     font-weight: bold;
     border-radius: 5px;
