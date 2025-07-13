@@ -135,7 +135,7 @@ nav li a{
     padding-top: 20px;
 }
 .secondary-background{
-    background-color: #FFFFFF;
+    background-color: #EAE9FF;
 
 }
 .user-section{
@@ -165,4 +165,53 @@ nav li a{
 }
 .user{
     margin-top: 100px;
+    width: 1140px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;    
+}
+/* footer styles */
+footer{
+    padding: 92px 150px;
+    display: flex;
+    gap: 115px;
+    align-items: center;
+    background-color: #F6F8FF;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #000000;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    border: none;
+}
+.footer textarea{
+    height: auto;
+    min-height: 160px;
+    resize: vertical;
+}
+.button-form{
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    width: 60%;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 0;
+    border: none;
+    text-align: center;
+    display: block;
+    align-items: center;
+}
+.section-title{
+    width: 528px;
+    height: 232px;
+    font-size: 97px;
 }
