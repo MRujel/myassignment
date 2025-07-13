@@ -55,6 +55,10 @@ nav li a{
     border-radius: 5px;
     padding: 10px 20px;
     border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #FFB805;
 }
 /* banner style */
 .banner{
@@ -79,6 +83,10 @@ nav li a{
     border-radius: 5px;
     padding: 10px 20px;
     border: none;
+    cursor: pointer;
+}
+.banner-button:hover{
+    background-color: #FFB805;
 }
 /* action styles */
 .action{
@@ -114,6 +122,10 @@ nav li a{
     border-radius: 5px;
     text-align: center;
     justify-content: center;
+    cursor: pointer;
+}
+.action-button:hover{
+    background-color: #FFB805;
 }
 .action-pic{
     width: 400px;
@@ -209,6 +221,10 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     text-align: center;
     display: block;
     align-items: center;
+    cursor: pointer;
+}
+.button-form:hover{
+    background-color: #FFB805;
 }
 .section-title{
     width: 528px;
